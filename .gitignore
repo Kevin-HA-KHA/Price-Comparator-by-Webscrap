@@ -1,0 +1,11 @@
+# Ignorer les dossiers spécifiques
+.git/
+old/
+poetry-test/
+revisions/
+
+# Ignorer tous les fichiers .xlsx
+*.xlsx
+
+# Ignorer un fichier spécifique
+FinalScrapper.py

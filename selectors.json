@@ -1,0 +1,28 @@
+{
+    "Sephora": {
+        "site": "Sephora",
+        "cookies": "#footer_tc_privacy_button_2",
+        "search_bar": ".desktop-header span.algolia-fake-search-placeholder",
+        "navbar": "div.desktop-header",
+        "search_input": "input.aa-Input.algolia-search-input-box",
+        "products": "li.ais-InfiniteHits-item",
+        "title": "h3.product-title.bidirectional",
+        "price1": "span.product-sales-price",
+        "price2": "div.product-pricing",
+        "brand": "span.product-brand",
+        "volume": ".product-shades div.product-variation-name"
+    },
+    "Marionnaud": {
+        "site": "Marionnaud",
+        "cookies": "button.onetrust-close-btn-handler",
+        "search_bar": ".searchbox__container",
+        "navbar": ".HeaderComponentBlock1.has-components",
+        "search_input": "input.searchbox__input.ng-pristine.ng-valid.ng-touched",
+        "products": ".product-grid__product-item",
+        "title": "div.product-list-item__range",
+        "price1": "span.price__default-value",
+        "price2": "",
+        "brand": "div.product-list-item__brand",
+        "volume": "div.product-list-item__variants.visibility-feature"
+    }
+}
