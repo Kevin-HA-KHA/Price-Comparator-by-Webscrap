@@ -91,8 +91,6 @@ def scrape_site(driver, url, search_term, selectors):
             volume = product.find_element(By.CSS_SELECTOR, selectors["volume"]).get_attribute('innerHTML').strip()
         except:
             volume = "Non disponible"
-            if volume == "":
-                volume = "Non disponible"
 
         data.append({
             "Marque": brand,

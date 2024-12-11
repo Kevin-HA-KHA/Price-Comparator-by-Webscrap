@@ -3,6 +3,7 @@
 old/
 poetry-test/
 revisions/
+scrapper_env/
 
 # Ignorer tous les fichiers .xlsx
 *.xlsx
